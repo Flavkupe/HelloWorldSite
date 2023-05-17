@@ -1,0 +1,20 @@
+/* This is a comment */
+
+/* In css, # is used to reference an HTML element with a matching id. */
+
+/* This is styling for the box */
+#box {
+  position: relative;
+  background-color: red;
+  border: 3px solid black;
+  border-radius: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 60px;
+  text-align: center;
+}
+
+/* This is styling for the buttons. It adds space between the buttons and the box. */
+#buttons {
+  margin-top: 10px;
+}
