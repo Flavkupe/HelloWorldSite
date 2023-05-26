@@ -16,3 +16,8 @@ div img {
   display: block;
   margin: auto;
 }
+
+/* This centers text that is inside a div. Note that the way of centering text is different from images. */
+div h3 {
+  text-align: center;
+}
