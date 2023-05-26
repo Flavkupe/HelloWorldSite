@@ -1,0 +1,18 @@
+/* This is a comment */
+
+/* Centering an image horizontally is actually harder than some might think. This is a trick to make it work. */
+
+
+/* The image that is NOT inside the div will be 50px and not centered. */
+img {
+  width: 50px;
+}
+
+/* The image that IS inside the div will be 100px and will be centered. */
+div img {
+  width: 100px;
+  
+  /* This odd combination of properties will center your image, but ONLY if it's inside the div. */
+  display: block;
+  margin: auto;
+}
