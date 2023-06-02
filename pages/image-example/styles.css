@@ -37,3 +37,11 @@ div h3 {
   text-align: center;
   width: 100%;
 }
+
+
+/* This uses Flexbox, a newer approach which can help simplify things. */
+.aligned {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
