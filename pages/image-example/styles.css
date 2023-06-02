@@ -9,7 +9,8 @@ img {
 }
 
 /* The image that IS inside the div will be 100px and will be centered. */
-div img {
+/* You can use .centered (with the dot) to apply CSS to things with class="centered". */
+.centered img {
   width: 100px;
   
   /* This odd combination of properties will center your image, but ONLY if it's inside the div. */
