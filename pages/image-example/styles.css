@@ -21,3 +21,19 @@ div img {
 div h3 {
   text-align: center;
 }
+
+/* You can use .table (with the dot) to apply CSS to things with class="table". Same with .cell to things with class="cell". */
+.table {
+  display: table;
+}
+
+.table .cell {
+  display: table-cell;
+}
+
+.table .cell-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+}
